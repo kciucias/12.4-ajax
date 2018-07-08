@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+//variables
+$color-white: #fff;
+$color-grey: #ccc;
+$color-gold: #f1c40f;
+$color-black: #000;
+$fonts: 'Open Sans', sans-serif;
+
+body {
+background-color: $color-grey;
+}
+
+.flex-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: $color-white;
+		margin: 200px 200px;
+		height: 500px;
+		button {
+			background-color: $color-black;
+			color: $color-white;
+			width: 120px;
+			height: 50px;
+			font-size: 14px;
+			text-transform: uppercase;
+			margin-top: 30px;
+		}
+		p {
+			font-size: 24px;
+			text-align: center;
+		}
+	}
+
+	
+
